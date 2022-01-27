@@ -1,0 +1,23 @@
+.pages {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.paging {
+    width: 40px;
+    height: 30px;
+    font-size: 16px;
+    background-color: rgb(87, 55, 55);
+    border-radius: 5px;
+    color: white;
+    transition: 1s ease;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+}
+
+.paging:hover {
+    background-color: transparent;
+    transform: scale(1.1);
+}

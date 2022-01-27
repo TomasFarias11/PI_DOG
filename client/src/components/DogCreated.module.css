@@ -1,0 +1,65 @@
+.box {
+    width: 650px;
+    height: 450px;
+    /* margin: 10px 20px; */
+    /* padding: 20px; */
+    position: absolute;
+    right: 650px;
+    top: 250px;
+    border-radius: 30px;
+    background-color:rgba(158, 111, 111, 0.815);
+}
+
+.temps {
+    position: absolute;
+    top: 250px;
+    left: 265px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.buttonCreateDog {
+    position: absolute;
+    top: 340px;
+    left: 30px;
+    width: 150px;
+    height: 100px;
+    font-size: 20px;
+    font-family: Roboto;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.buttonCreateDog:hover {
+    transform: scale(1.1);
+}
+
+.buttonToHome {
+    position: absolute;
+    top: 588px;
+    right: 680px;
+    width: 150px;
+    height: 100px;
+    font-size: 20px;
+    font-family: Roboto;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.buttonToHome:hover {
+    transform: scale(1.1);
+}
+
+.titleCreateDog {
+    font-family: Roboto;
+    color: rgba(0, 255, 255, 0.842);
+    font-size: 50px;
+}
+
+.listedTemps {
+    list-style: none;
+}

@@ -36,7 +36,7 @@ conn.sync({ force: false }).then(() => {
         let temperamentsDB = temperaments.map(e => e && e.split(', ')).flat();
           temperamentsDB.map(async(e) => {
                await Temperaments.findOrCreate({
-                    where: {name: e}
+                    where: {name: e ? e : 'Temperamento indefinido'}
                 })
             })
       })

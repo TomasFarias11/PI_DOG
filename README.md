@@ -8,7 +8,7 @@
   <img height="200" src="./dog.png" />
 </p>
 
-# Individual Project Deplpyed: https://pi-dog-murex.vercel.app/dogs
+# Individual Project Deployed: https://pi-dog-murex.vercel.app/dogs
 
 ## Objetivos del Proyecto
 
